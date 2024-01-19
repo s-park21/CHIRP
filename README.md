@@ -43,7 +43,8 @@ Using HTTPS:
 4. Check receiver ID, sender ID and protocol version
 5. Decode payload data into struct corresponding to packet type
 ## Message Format
-![image](https://github.com/Hover-Disaster/Strelka_Ground_Station_Packets/assets/56907295/aab03b5f-81c8-4b77-8f32-97d307e9c885)  
+![image](https://github.com/s-park21/CHIRP/assets/56907295/63cc4721-bebe-44ef-af83-c761214009e6)
+
 
 ## Examples
 [STM32 Implementation](https://github.com/s-park21/Strelka_FC_H7)
