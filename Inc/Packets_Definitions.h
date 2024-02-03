@@ -427,6 +427,8 @@ typedef struct __attribute__((__packed__))
 	float packet_stream_frequency;
 	uint8_t heart_beat_enabled;
 	float heart_beat_chirp_frequency;
+	uint8_t flash_logging_enabled;
+	uint8_t flight_state
 } system_state_packet_type_0_res;
 
 typedef struct __attribute__((__packed__)) 
