@@ -305,6 +305,7 @@ typedef struct __attribute__((__packed__))
 	uint8_t flight_state;
 	float ambient_temperature;
 	float available_flash_memory;
+	uint8_t gps1_good;
 } stream_packet_type_0;
 
 typedef struct __attribute__((__packed__)) 
