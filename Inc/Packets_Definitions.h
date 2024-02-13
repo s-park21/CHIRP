@@ -72,6 +72,7 @@
 #define SYSTEM_STATE_PACKET_TYPE_5_RES		0x3A
 #define SYSTEM_STATE_PACKET_TYPE_6_RES		0x3B
 #define SYSTEM_STATE_PACKET_TYPE_7_RES		0x3C
+#define SYSTEM_REBOOT_REQ			0x3C
 
 
 /* Payload lengths */
@@ -135,6 +136,7 @@
 #define SYSTEM_STATE_PACKET_TYPE_5_RES_LEN 0x00
 #define SYSTEM_STATE_PACKET_TYPE_6_RES_LEN 0x00
 #define SYSTEM_STATE_PACKET_TYPE_7_RES_LEN 0x00
+#define SYSTEM_REBOOT_REQ_LEN		   0x00
 
 typedef struct __attribute__((__packed__))
 {
@@ -458,5 +460,6 @@ typedef struct __attribute__((__packed__))
 typedef struct __attribute__((__packed__)) 
 {
 } stream_state_packet_type_7_res;
+
 
 #endif /* INC_PACKETS_H_ */
