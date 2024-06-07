@@ -432,6 +432,10 @@ typedef struct __attribute__((__packed__))
 	float heart_beat_chirp_frequency;
 	uint8_t flash_logging_enabled;
 	uint8_t flight_state;
+	float quaternion_q1;
+	float quaternion_q2;
+	float quaternion_q3;
+	float quaternion_q4;
 } system_state_packet_type_0_res;
 
 typedef struct __attribute__((__packed__)) 
